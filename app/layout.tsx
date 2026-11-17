@@ -23,6 +23,8 @@ export default function RootLayout({
     <html lang="es">
       <body className="min-h-screen bg-[#e7e3f1] text-zinc-900 antialiased selection:bg-[#ff4757] selection:text-white">
         {children}
+
+        {/* Microsoft Clarity */}
         <Script
           id="microsoft-clarity"
           strategy="afterInteractive"
@@ -33,6 +35,24 @@ export default function RootLayout({
                   t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                   y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
               })(window, document, "clarity", "script", "z41ny63uue");
+            `,
+          }}
+        />
+
+        {/* Google Analytics 4 (GA4) */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-4V8KXPYTH3"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-4V8KXPYTH3');
             `,
           }}
         />
