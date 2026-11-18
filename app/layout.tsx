@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className="min-h-screen bg-[#e7e3f1] text-zinc-900 antialiased selection:bg-[#ff4757] selection:text-white">
+      <body className="min-h-screen bg-[#010103] text-[#f4f4f8] antialiased selection:bg-[#c8c3f2] selection:text-[#010103]">
         {children}
 
         {/* Microsoft Clarity */}
