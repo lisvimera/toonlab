@@ -5,6 +5,7 @@
 
 # testing
 /coverage
+.chrome_test_profile/
 
 # next.js
 /.next/

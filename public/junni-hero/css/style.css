@@ -10,13 +10,13 @@
 .section2-links-container {
   position: absolute;
   left: 50%;
-  bottom: 80px;
+  bottom: 24px;
   transform: translate(-50%, 15px);
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   width: 90%;
-  max-width: 320px;
+  max-width: 270px;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -33,9 +33,9 @@
 
 @media only screen and (max-width: 800px) {
   .section2-links-container {
-    bottom: 72px;
-    gap: 10px;
-    max-width: 290px;
+    bottom: 20px;
+    gap: 8px;
+    max-width: 250px;
   }
 }
 
@@ -44,19 +44,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
-  padding: 15px 28px;
+  gap: 10px;
+  padding: 11px 20px;
   border-radius: 9999px;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(18, 16, 26, 0.85);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  border: 1px solid rgba(200, 195, 242, 0.3);
   color: #ffffff;
   text-decoration: none;
   font-family: Arial, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   transition: all 0.25s ease;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   cursor: pointer;
