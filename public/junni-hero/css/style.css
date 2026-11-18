@@ -6,15 +6,15 @@
   display: none !important;
 }
 
-/* Minimalist Pill Links for Section 2 */
+/* Minimalist Pill Links for Section 2 (Centered toward bottom) */
 .section2-links-container {
   position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -46%);
+  bottom: 80px;
+  transform: translate(-50%, 15px);
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
   width: 90%;
   max-width: 320px;
   align-items: center;
@@ -28,7 +28,15 @@
 .section2[data-visible="true"] .section2-links-container {
   opacity: 1;
   pointer-events: auto;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 800px) {
+  .section2-links-container {
+    bottom: 72px;
+    gap: 10px;
+    max-width: 290px;
+  }
 }
 
 .pill-btn {
