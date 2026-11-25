@@ -3,11 +3,11 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tubitoons — Taller & Bitácora Análoga | VimerArt",
+  title: "ToonLab — Taller & Bitácora Análoga | VimerArt",
   description: "Espacio de experimentación análoga: bocetos, dioramas, escultura, modelado y porcelanicrón por VimerArt.",
-  keywords: ["Tubitoons", "VimerArt", "Dioramas", "Bocetos", "Escultura", "Porcelanicrón", "Artes Plásticas", "Miniaturas"],
+  keywords: ["ToonLab", "VimerArt", "Dioramas", "Bocetos", "Escultura", "Porcelanicrón", "Artes Plásticas", "Miniaturas"],
   openGraph: {
-    title: "Tubitoons — VimerArt",
+    title: "ToonLab — VimerArt",
     description: "Taller y bitácora análoga: bocetos, dioramas y escultura.",
     type: "website",
     url: "https://toonlab.vimerart.com",

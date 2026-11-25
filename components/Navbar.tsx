@@ -14,7 +14,7 @@ export function Navbar() {
           </div>
           <div className="flex flex-col">
             <span className="text-base font-bold tracking-tight text-zinc-900 group-hover:text-[#ff4757] transition-colors">
-              Tubitoons
+              ToonLab
             </span>
             <span className="text-[10px] uppercase tracking-wider text-zinc-500 -mt-1 font-mono">
               Analog Arts
